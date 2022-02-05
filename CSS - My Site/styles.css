@@ -1,0 +1,150 @@
+body {
+  background-color: #DBE2EF;
+  margin:0;
+  text-align: center;
+  font-family: poppins, sans-serif;
+}
+
+div{
+  display: inline-block;
+}
+
+.top {
+  height: 80vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: relative;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.top-cloud {
+  margin-top: 50px;
+  margin-left: 50px;
+  right: 300px;
+  position: absolute;
+}
+
+.bottom-cloud {
+  position: absolute;
+  margin-right: 50px;
+  left: 300px;
+}
+
+h1{
+  color: #112D4E;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  font-family: yellowtail, cursive;
+  font-size: 562%;
+}
+
+h2{
+  color: #DBE2EF;
+  font-family: poppins, sans-serif;
+  font-size: 2.2em;
+  margin-top: 10px;
+}
+
+p{
+  margin: 0;
+  line-height: 2;
+}
+
+h3{
+  margin: 0;
+}
+
+.middle-container{
+  background-color: #3F72AF;
+  padding-top: 50px;
+  color: #F9F7F7;
+}
+
+.bottom-container{
+  background-color: #F9F7F7;
+  height: 80px;
+  display: block;
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+
+.skill-row{
+display: inline-block;
+  width: 50%;
+  text-align: left;
+  margin: 30 px;
+  padding-top: 30px;
+}
+
+.skill{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 35px;
+}
+
+.heart{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 35px;
+}
+
+.profile{
+  width: 50%;
+  margin: auto auto 30px auto;
+}
+
+a:link{
+  color: #112D4E;
+}
+
+a:hover{
+  color: #F9F7F7;
+}
+
+a:visited{
+  color: #112D4E;
+}
+
+.icon{
+  width: 32px;
+  margin: auto 8px 5px 8px;
+}
+
+.contact-me{
+  padding-top: 10px;
+  padding-bottom: 90px;
+}
+
+hr{
+  border-top: 8px dotted;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  background-color: none;
+  width: 10%;
+  margin: 50px auto;
+}
+
+.btn {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  -webkit-box-shadow: 2px 2px 3px #112D4E;
+  -moz-box-shadow: 2px 2px 3px #112D4E;
+  box-shadow: 2px 2px 3px #112D4E;
+  font-family: Poppins, sans-serif;
+  color: #112D4E;
+  font-size: 20px;
+  background: #DBE2EF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #F9F7F7;
+  text-decoration: none;
+}
